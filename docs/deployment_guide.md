@@ -79,6 +79,7 @@ vllm serve meituan-longcat/LongCat-Flash-Chat \
 vllm serve meituan-longcat/LongCat-Flash-Chat \
    --trust-remote-code \
    --tensor-parallel-size 8 \
+   --headless \
    --data-parallel-size 2 \
    --data-parallel-size-local 1 \
    --data-parallel-start-rank 1 \
